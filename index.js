@@ -55,7 +55,7 @@ function checkAnswer(currentLevel){
         }, 300)
 
 
-        $("h1").text("Game over, " + yourName + ". Tap on anywhere to restart");
+        $("h1").text("Game over, " + yourName + ". tap anywhere to restart");
 
         startOver()
         console.log("failed")
